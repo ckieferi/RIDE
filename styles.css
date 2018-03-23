@@ -1,0 +1,116 @@
+/* override the navigation bar defaults */
+
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+    padding: 0 40px 0 40px;
+    margin : 0 !important;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #000;
+    border-top: 3px solid #FFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    border-top: 3px solid #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    background-color: #FFF;
+    border-top: 3px solid #48FFAF;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #000;
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-text {
+    color: #000;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.RIDEnav {
+    font-family: 'Bebas Neue';
+    font-size: 14px;
+}
+
+#HeaderSection {
+    background: url('./RIDE Grafiken/Ride-Landing-w900-q30.jpg') no-repeat center center;
+    max-width: 900px;
+    min-height: 439px;
+    color: #FFF;
+    padding: 100px 0 100px 0;
+}
+
+h1{
+    font-family: 'Bebas Neue';
+    font-size: 52pt;  
+}
+
+h2{
+    font-family: 'Bebas Neue';
+    
+}
+
+#MidSection {
+      margin: 100px 0 100px 0;
+}
+
+.borderleft {
+    border-left: 2px solid #48FFAF;
+    padding-left: 30px;
+}
+
+.mission {
+    font-family: 'Bebas Neue';
+    font-color: #CCC;
+    font-size: 18px:;
+}
+
+#Newsletter {
+    background: url('./RIDE Grafiken/Ride-Bottom w900.png') no-repeat center center;
+    min-height: 260px;
+    color: #FFF;
+    padding: 50px;
+}
+
+
+.form-signup {
+    text-align: center;
+}
+
+.nocorner {
+    border-radius: 0 !important;
+}
+
+.mybtn {
+    border-radius: 0 !important;
+    background-color: #000;
+    color: #FFF;
+    margin: -10px;
+}
+
+.FooterSection {
+      padding: 100px 0 100px 0;
+      text-align: center;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="493px" height="493px" viewBox="0 0 493 493" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>RIDE-Thumb</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="21.6910549%" y1="-13.1948981%" x2="43.3841766%" y2="139.816766%" id="linearGradient-1">
+            <stop stop-color="#48FFAF" offset="0%"></stop>
+            <stop stop-color="#B6B6B6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RIDE-Thumb" fill="url(#linearGradient-1)">
+            <path d="M359.961403,284.947364 L425.272042,370.154173 L349.483158,370.154173 L294.613207,297.141074 L255.441846,297.141074 L255.441846,370.154173 L192.347036,370.154173 L192.347036,240.83373 L302.086937,240.83373 C327.099523,240.83373 345.389506,227.111145 345.389506,206.751006 C345.389506,187.099371 327.099523,173.376786 302.086937,173.376786 L295.10144,173.376786 L295.10144,118.150841 L303.21363,118.150841 C334.948817,118.150841 360.674975,126.317271 379.716087,142.236215 C398.7572,158.199906 408.44676,179.678734 408.44676,206.751006 C408.44676,241.206626 390.907905,269.733195 359.961403,284.947364 Z M67.7279576,374.849159 L67.7279576,299.521801 L126.879342,299.521801 L126.879342,374.849159 L67.7279576,374.849159 Z" id="Combined-Shape-Copy-3"></path>
+        </g>
+    </g>
+</svg>
