@@ -1,4 +1,14 @@
 /* override the navigation bar defaults */
+/* RIDE color palette
+light green #48FFAF;
+grey B6B6B6;
+black 303436;
+
+gradients
+from lightgreen to grey
+from 53D0C4 to 30C584
+
+*/
 
 .navbar-default {
     background-color: #FFF;
@@ -59,7 +69,6 @@
     max-width: 900px;
     min-height: 439px;
     color: #FFF;
-    padding: 100px 0 100px 0;
 }
 
 #HeaderSection h1{
@@ -74,6 +83,49 @@
     margin: 0px; 
 }
 
+#headline{
+    position: relative;
+    margin-left: 100px;
+    padding-top: 80px;
+}
+
+#getStarted{
+    position: relative;
+    margin-left: 100px;
+    width: 160px;
+    height: 40px;
+    color: #000;
+    text-align: center;
+    background: linear-gradient(to right, #30C584, #53D0C4);
+    font-family: 'Bebas Neue';
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+
+#Navbar2{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 70px;
+    width: 360px;
+    height: 40px;
+    background-color: hsla(30,10%,0%, 0.3);
+}
+
+#Navbar2 ul{
+    padding-top: 11px;
+}
+
+#Navbar2 li{
+list-style: none;
+float: left;
+padding-right: 22px;
+}
+
+#Navbar2 a{
+color: #FFF;
+}
+
 #MidSection {
       margin: 100px 0 100px 0;
 }
@@ -86,7 +138,7 @@
 .mission {
     font-family: 'Bebas Neue';
     font-color: #CCC;
-    font-size: 18px:;
+    font-size: 18px
 }
 
 #Newsletter {
@@ -113,6 +165,6 @@
 }
 
 .FooterSection {
-      padding: 100px 0 100px 0;
+      padding: 80px 0 80px 0;
       text-align: center;
 }
