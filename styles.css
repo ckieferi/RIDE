@@ -62,14 +62,16 @@
     padding: 100px 0 100px 0;
 }
 
-h1{
+#HeaderSection h1{
     font-family: 'Bebas Neue';
     font-size: 52pt;  
+    margin: 0px; 
 }
 
-h2{
-    font-family: 'Bebas Neue';
-    
+#HeaderSection h2,h3{
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+    font-weight: 100;
+    margin: 0px; 
 }
 
 #MidSection {
