@@ -1,4 +1,6 @@
 /* override the navigation bar defaults */
+
+
 /* RIDE color palette
 light green #48FFAF;
 grey B6B6B6;
@@ -10,24 +12,29 @@ from 53D0C4 to 30C584
 
 */
 
-.centerpage{
+.centerpage {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.navbarwrapper{
+.logowrapper {
+    padding-left: 15px;
+}
+
+.navbarwrapper {
     padding-top: 20px;
     padding-bottom: 5px;
 }
+
 .navbar-default {
     background-color: #FFF;
     border-color: #FFF;
     padding: 0;
-    margin : 0 !important;
+    margin: 0 !important;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding: 3px 0 0 0;
 }
 
@@ -52,7 +59,8 @@ from 53D0C4 to 30C584
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #B6B6B6;;
+    color: #B6B6B6;
+    ;
     background-color: #FFF;
 }
 
@@ -73,96 +81,109 @@ from 53D0C4 to 30C584
     background-color: black;
 }
 
-.RIDEnav{
+.RIDEnav {
     font-family: 'Bebas Neue';
     font-size: 16px;
 }
 
-#HeaderSection{
+#HeaderSection {
     background: url('./RIDE Grafiken/Ride-Landing-w900-q30.jpg') no-repeat center center;
     min-height: 439px;
     color: #FFF;
 }
 
-#HeaderSection h1{
+#HeaderSection h1 {
     font-family: 'Bebas Neue';
-    font-size: 52pt;  
-    margin: 0px; 
+    font-size: 52pt;
+    margin: 0px;
 }
 
-#HeaderSection h2,h3{
+#HeaderSection h2,
+h3 {
     /*font-family: Arial,Helvetica Neue,Helvetica,sans-serif; */
     font-family: 'Avenir';
-    font-size: 16pt;  
+    font-size: 16pt;
     font-weight: 100;
-    margin: 0 0 5px 0; 
+    margin: 0 0 5px 0;
 }
 
-#headline{
+#headline {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 120px;
     padding-top: 90px;
 }
 
-#getStarted{
-    position: absolute;    
+#getStarted {
+    position: absolute;
     width: 160px;
     height: 40px;
-    
     text-align: center;
     background: linear-gradient(to right, #30C584, #53D0C4);
     font-family: 'Bebas Neue';
     font-size: 16px;
     padding-top: 10px;
     text-decoration: none;
-
 }
 
-#getStarted a{
+#getStarted a {
     color: #000;
     text-decoration: none;
 }
 
-#getStarted a:hover{
+#getStarted a:hover {
     color: #FFF;
     text-decoration: none;
 }
 
-#Navbar2{
+#Navbar2 {
     position: absolute;
     margin-left: 160px;
     margin-top: 95px;
-    width: 300px;
+    width: 440px;
     height: 40px;
-    background-color: hsla(30,10%,0%, 0.3);
+    background-color: hsla(30, 10%, 0%, 0.3);
 }
 
-#Navbar2 ul{
+#Navbar2 ul {
     padding-top: 10px;
 }
 
-#Navbar2 li{
-list-style: none;
-float: left;
-padding-right: 30px;
+#Navbar2 li {
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+    font-family: 'Avenir';
+    font-size: 14px;
 }
 
-#Navbar2 a{
-color: #FFF;
-text-decoration: none;
+#Navbar2 a {
+    color: #FFF;
+    text-decoration: none;
 }
 
-#Navbar2 a:hover{
-color: #B6B6B6;
-text-decoration: none;
+#Navbar2 a:hover, #Navbar2 a:active {
+    color: #B6B6B6;
+    text-decoration: none;
 }
 
-h2,h3{
+h2,
+h3 {
     font-family: 'Avenir';
 }
 
+#Navbar2Arrow{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 134px;
+    width: 40px;
+    height: 55px;
+    background-color: hsla(30, 10%, 0%, 0.6);
+    padding-top: 20px;
+    text-align: center;
+}
+
 #MidSection {
-      margin: 100px 0 100px 0;
+    margin: 100px 0 100px 0;
 }
 
 .borderleft {
@@ -170,10 +191,43 @@ h2,h3{
     padding-left: 30px;
 }
 
-.mission {
+.borderleft p{
+    padding-bottom: 10px;
+}
+
+.MidSectionHeader {
     font-family: 'Bebas Neue';
     color: #B6B6B6;
     font-size: 18px
+}
+
+#mission{
+    margin-left: 80px;
+    max-width: 300px;
+}
+
+#missionpic{
+   float:right;
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+#investmentstrategy{
+    margin-left: 80px;
+    max-width: 500px;
+}
+
+#investmentstrategy li {
+    list-style: none;
+}
+
+#FAQs{
+    visibility: hidden;
+    opacity: 100%;
+}
+
+#aboutus{
+    visibility: hidden;
 }
 
 #Newsletter {
@@ -199,25 +253,22 @@ h2,h3{
     margin: -10px;
 }
 
-.mybtn a:hover{
-color: #B6B6B6;
-
+.mybtn a:hover {
+    color: #B6B6B6;
 }
 
 .FooterSection {
-      padding: 80px 0 80px 0;
-      text-align: center;
+    padding: 80px 0 80px 0;
+    text-align: center;
 }
 
-#cornercontent{
- background: url('./RIDE Grafiken/Ride-Corner.jpg') no-repeat;
+#cornercontent {
+    background: url('./RIDE Grafiken/Ride-Corner.jpg') no-repeat;
     min-height: 260px;
     color: #000;
-      
 }
 
-#HowItWorks{
+#HowItWorks {
     background: url('./RIDE Grafiken/RIDE-Corner-RI.jpg') no-repeat top right;
     padding-top: 30px;
-
 }

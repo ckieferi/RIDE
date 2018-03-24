@@ -24,8 +24,11 @@
         <div class="centerpage">
             <div class="navbarwrapper">
                 <nav class="navbar navbar-default">
-                    <a class="navbar-brand" href='#'>
-                <img src="RIDE Grafiken/RIDE-Logo.svg" style="width:100%;height:40px;"></a>
+                    <a class="navbar-brand" href='index.html'>
+                        <div class="logowrapper">
+                            <img src="RIDE Grafiken/RIDE-Logo.svg" style="width:100%;height:40px;">
+                        </div>
+                    </a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -33,64 +36,100 @@
                     </button>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right RIDEnav">
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="howitworks.html">How it works</a></li>
-                            <li><a href="#">Signup</a></li>
                             <li><a href="#">Login</a></li>
                         </ul>
                     </div>
-            
-            </nav>
-        </div>
-        <section id="HeaderSection" class="HeaderSection">
-            <div id="headline">
-                <h1>DIRECT REAL ESTATE</h1>
-                <h2>Let's invest together.</h2>
-                <h1>INVESTMENTS</h1>
-                <div id="getStarted"><a href="#">
+                </nav>
+            </div>
+            <section id="HeaderSection" class="HeaderSection">
+                <div id="headline">
+                    <h1>DIRECT REAL ESTATE</h1>
+                    <h2>Let's invest together.</h2>
+                    <h1>INVESTMENTS</h1>
+                    <div id="getStarted"><a href="#">
                     get started</a>
+                    </div>
+                    <div id="Navbar2Arrow"><span class="glyphicon glyphicon-arrow-down"></span></div>
+                    <div id="Navbar2">
+                        <ul>
+                            <li class="active">
+                                <div id="missionlink"><a href="#">Mission</a></div>
+                            </li>
+                            <li>
+                                <div id="investmentstrategylink"><a href="#">Investment Strategy</a></div>
+                            </li>
+                            <li>
+                                <div id="FAQslink"><a href="#">FAQs</a></div>
+                            </li>
+                            <li>
+                                <div id="aboutuslink"><a href="#">About us</a></div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div id="Navbar2">
-                    <ul class="">
-                        <li><a href="#">Investments</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">About us</a></li>
-                    </ul>
+            </section>
+            <section id="MidSection">
+                <div id="MidSectionContent">
+                        <div id='missionpic'><img src="./RIDE Grafiken/Midsection-BG-60pc.jpg"></div>
+                    <div id="mission">
+                        <div class="MidSectionHeader">O U R&nbsp;&nbsp;M I S S I O N</div>
+                        <h2><div class="SubHeading">Your financial independence.</div></h2>
+                        <br>
+                        <div class="borderleftwrapper">
+                        <div class="borderleft">The best way to achieve financial freedom is to create passive income streams. Real estate investments generate monthly cashflow through rental income and are therefore an ideal investment to build passive income streams.
+                            <br>
+                            <br> RIDE offers real estate investment opportunities at low transaction costs, and at any investment size, to help you achieve financial independence.
+                        </div>
+                    </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section id="MidSection">
-            <div class="row content">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-4">
-                    <div class="mission">O U R &nbsp;M I S S I O N</div>
-                    <h2>Your financial Independence.</h2>
+            </section>
+            <section id="Newsletter">
+                <form class="form-signup form-inline nocorner">
+                    <h3>Get instant guidance.</h3>
                     <br>
-                    <div class="borderleft">We help you achieve financial freedom by producing passive income streams. RiDE focuses on all aspect of the journey to financial independence from financial education, encouraging people to save, to investing the money to managing passive income. </div>
-                </div>
-                <div class="col-sm-5"><img src="./RIDE Grafiken/Midsection-BG-60pc.jpg" style="padding: 35px 0 5px 0;">
-                </div>
-                <div class="col-sm-2">
-                </div>
-            </div>
-        </section>
-        <section id="Newsletter">
-            <form class="form-signup form-inline nocorner">
-                <h3>Get instant guidance.</h3>
-                <br>
-                <label for="inputEmail" class="sr-only">Enter your email here</label>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required width="200">
-                <button class="btn mybtn" type="submit">Subscribe</button>
-            </form>
-        </section>
+                    <label for="inputEmail" class="sr-only">Enter your email here</label>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required width="200">
+                    <button class="btn mybtn" type="submit">Subscribe</button>
+                </form>
+            </section>
+        </div>
+        <footer class="container FooterSection">
+            <img src="RIDE Grafiken/RIDE-Logo BW.png" style="width: 50px; text-align: center;">
+            <br>
+            <small>&copy; 2018</small>
+            <br>
+        </footer>
     </div>
-    <footer class="container FooterSection">
-        <img src="RIDE Grafiken/RIDE-Logo BW.png" style="width: 50px; text-align: center;">
-        <br>
-        <small>&copy; 2018</small>
-        <br>
-    </footer>
-    </div>
+    <script>
+    $('#missionlink').click(function() {
+        $('.MidSectionHeader').html('O U R&nbsp;&nbsp;M I S S I O N');
+        $('.SubHeading').html('Your financial independence.');
+        $('.borderleft').html('The best way to achieve financial freedom is to create passive income streams. Real estate investments generate monthly cashflow through rental income and are therefore an ideal investment to build passive income streams.<br><br> RIDE offers real estate investment opportunities at low transaction costs, and at any investment size, to help you achieve financial independence.');
+        $('#missionpic').html('<img src="./RIDE Grafiken/Midsection-BG-60pc.jpg">');
+    });
+    $('#investmentstrategylink').click(function() {
+        $('.MidSectionHeader').html('O U R&nbsp;&nbsp;I N V E S T M E N T&nbsp;&nbsp;S T R A T E G Y');
+        $('.SubHeading').html('Long term growth potential<br>relative to acquisition value');
+        $('.borderleftwrapper').html('<div class="borderleft"><p><i>We manage risk:</i><br><br>Leverage has to fit cash flow. We only use debt if we can service the debt the cash flow of the asset.</p><p><i>We buy at a discount:</i><br><br>We refrain from overly optimistic valuations and prefer to buy in special situations.</p><p><i>We manage & build to core:</i><br><br>We strive to own high quality, cash flow producing real estate. Our strategy is to actively manage or build these assets and are looking for deals that have the potential to be turned into core over time. </p><p><i>We avoid political risk:</i><br><br>We only invest in regions with a solid legal framework.</p></div>');
+        $('#missionpic').html('');
+
+    });
+    $('#FAQslink').click(function() {
+        $('.MidSectionHeader').html('F A Q s');
+        $('.SubHeading').html('Your questions answered');
+        $('.borderleft').html('<p><i><strong>We manage risk:</strong></i><br>Leverage has to fit cash flow. We only use debt if we can service the debt the cash flow of the asset.</p><p><i>We buy at a discount:</i><br> We refrain from overly optimistic valuations and prefer to buy in special situations</p><p><i>We manage & build to core:</i><br> We strive to own high quality, cash flow producing real estate. Our strategy is to actively manage or build these assets and are looking for deals that have the potential to be turned into core over time. </p><p><i>We avoid political risk:</i><br> We only invest in regions with a solid legal framework.</p>');
+
+    });
+    $('#aboutuslink').click(function() {
+        $('.MidSectionHeader').html('A B O U T&nbsp;&nbsp;U S');
+        $('.SubHeading').html('Your investment professionals');
+        $('.borderleft').html('<p><i><strong>We manage risk:</strong></i><br>Leverage has to fit cash flow. We only use debt if we can service the debt the cash flow of the asset.</p><p><i>We buy at a discount:</i><br> We refrain from overly optimistic valuations and prefer to buy in special situations</p><p><i>We manage & build to core:</i><br> We strive to own high quality, cash flow producing real estate. Our strategy is to actively manage or build these assets and are looking for deals that have the potential to be turned into core over time. </p><p><i>We avoid political risk:</i><br> We only invest in regions with a solid legal framework.</p>');
+
+    });
+    </script>
 </body>
 <!--
 
@@ -129,4 +168,43 @@
             </div>
         </div>
 
+                    <div id='missionpic'><img src="./RIDE Grafiken/Midsection-BG-60pc.jpg"></div>
+                    <div id="mission">
+                        <div class="MidSectionHeader">O U R&nbsp;&nbsp;M I S S I O N</div>
+                        <h2><div class="SubHeading">Your financial independence.</div></h2>
+                        <br>
+                        <div class="borderleftwrapper">
+                        <div class="borderleft">The best way to achieve financial freedom is to create passive income streams. Real estate investments generate monthly cashflow through rental income and are therefore an ideal investment to build passive income streams.
+                            <br>
+                            <br> RIDE offers real estate investment opportunities at low transaction costs, and at any investment size, to help you achieve financial independence.
+                        </div>
+                    </div>
+                    </div>
+
+                        <div id="investmentstrategy">
+                            <div class="MidSectionHeader">O U R&nbsp;&nbsp;I N V E S T M E N T&nbsp;&nbsp;S T R A T E G Y</div>
+                            <h2>Long term growth potential<br>relative to acquisition value</h2>
+                            <br>
+                            <div class="borderleft">
+                                <p><i>We manage risk:</i><br><br>Leverage has to fit cash flow. We only use debt if we can service the debt the cash flow of the asset.</p>
+                                <p><i>We buy at a discount:</i><br><br>We refrain from overly optimistic valuations and prefer to buy in special situations.</p>
+                                <p><i>We manage & build to core:</i><br><br>We strive to own high quality, cash flow producing real estate. Our strategy is to actively manage or build these assets and are looking for deals that have the potential to be turned into core over time. </p>
+                                <p><i>We avoid political risk:</i><br><br>We only invest in regions with a solid legal framework.
+                                </p>
+                            
+                            </div>
+                        </div>
+
+                        <div id="FAQs">
+                            <div class="MidSectionHeader">F A Q s</div>
+                            <h2>Your questions answered</h2>
+                            <br>
+                            <div class="borderleft">Where do you invest?</div>
+                            We invest only in Europe.
+                            <div class="borderleft">Where are your headquarters?</div>
+                            Our headquarters are located in Berlin, Germany.
+                            <div class="borderleft">What type of property do you invest in?</div>
+                            We invest in residential and commercial real estate with a gross asset value between 1 and 20 Mio. Euro.
+                        </div>
+                        
         !-->
