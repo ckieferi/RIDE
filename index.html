@@ -1,7 +1,19 @@
+<!-- ➜  ~ mongod minusminusdbpath /Dev/ -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124665386-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124665386-1');
+
+</script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="RIDE - Real investments, direct equity">
@@ -16,117 +28,243 @@
     <link rel="shortcut icon" href="RIDE Grafiken/favicon.ico" type="image/x-icon">
     <link rel="icon" href="RIDE Grafiken/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <title>RIDE - Direct Real Estate Investments</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="centerpage">
-            <div class="navbarwrapper">
-                <nav class="navbar navbar-default">
-                    <a class="navbar-brand" href='#'>
-                <img src="RIDE Grafiken/RIDE-Logo.svg" style="width:100%;height:40px;"></a>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav navbar-right RIDEnav">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="howitworks.html">How it works</a></li>
-                            <li><a href="#">Signup</a></li>
-                            <li><a href="#">Login</a></li>
-                        </ul>
-                    </div>
-            
-            </nav>
-        </div>
-        <section id="HeaderSection" class="HeaderSection">
-            <div id="headline">
-                <h1>DIRECT REAL ESTATE</h1>
-                <h2>Let's invest together.</h2>
-                <h1>INVESTMENTS</h1>
-                <div id="getStarted"><a href="#">
-                    get started</a>
-                </div>
-                <div id="Navbar2">
-                    <ul class="">
-                        <li><a href="#">Investments</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">About us</a></li>
+    <button onclick="topFunction()" id="goToTopButton" title="Go to top">^</button>
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="navbarwrapper centerpage">
+                <a class="navbar-brand" href='index.html'>
+                   
+                        <img src="RIDE Grafiken/RIDE-Logo.svg" style="width:100%;height:40px;">
+                    
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right RIDEnav">
+                        <li><a href="index.html">Für Asset Manager</a></li>
+                        <li><a href="index.html">Für Investoren</a></li>
+                        <li><a href="#" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
                     </ul>
                 </div>
+                 
             </div>
-        </section>
-        <section id="MidSection">
-            <div class="row content">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-4">
-                    <div class="mission">O U R &nbsp;M I S S I O N</div>
-                    <h2>Your financial Independence.</h2>
-                    <br>
-                    <div class="borderleft">We help you achieve financial freedom by producing passive income streams. RiDE focuses on all aspect of the journey to financial independence from financial education, encouraging people to save, to investing the money to managing passive income. </div>
+        </nav>
+        <div id="id01" class="modal centerpage">
+            <form class="modal-content animate w3-animate-top" action="userarea.html">
+                <div class="logincontainer">
+                    <input type="text" placeholder="Enter Username" name="uname">
+                    <!--  required -->
+                    <input type="password" placeholder="Enter Password" name="psw">
+                    <!--  required -->
+                    <button type="submit" class="loginbutton">Login</button>
                 </div>
-                <div class="col-sm-5"><img src="./RIDE Grafiken/Midsection-BG-60pc.jpg" style="padding: 35px 0 5px 0;">
+                <div class="logincontainer" style="background-color:#f1f1f1">
+                    <button type="submit" class="cancelbtn">Sign up</button>
+                    <span class="psw"><a href="#">Forgot password?</a></span>
                 </div>
-                <div class="col-sm-2">
-                </div>
-            </div>
-        </section>
-        <section id="Newsletter">
-            <form class="form-signup form-inline nocorner">
-                <h3>Get instant guidance.</h3>
-                <br>
-                <label for="inputEmail" class="sr-only">Enter your email here</label>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required width="200">
-                <button class="btn mybtn" type="submit">Subscribe</button>
             </form>
-        </section>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="centerpage">
+            <section id="HeaderSection" class="HeaderSection">
+                <div id="headline">
+                    <h1>DIRECT REAL ESTATE</h1>
+                    <h2>Let's invest together.</h2>
+                    <h1>INVESTMENTS</h1>
+                    <div id="getStarted"><a href="#Newsletter">get started</a></div>
+                    <nav class="navbar-default2 ">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar2">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="Navbar2">
+                            <ul class="navbar-nav navbar-right">
+                                <li><a href="#Vision">Vision</a></li>
+                                <li><a href="#InvestmentStruktur">Investment Struktur</a></li>
+                                <li><a href="#AssetManagement">Asset Management</a></li>
+                                <li><a href="#UeberUns">Über uns</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!--  
+                    <div id="Navbar2Arrow"><span class="glyphicon glyphicon-arrow-down"></span></div>
+                -->
+                </div>
+            </section>
+            <section id="Vision" class="MidSection">
+               
+                <div class="MidSectionHeader fade">V I S I O N</div>
+                <div class="fade"><h2>Blockchainbasierte Investmentclubs für Immobilien</h2></div>
+                <div class="row">
+                    <div class="col-sm-6 fade">
+                        
+                        <div class="borderleftwrapper">
+                            <div class="borderleft">RIDE macht Immobilieninvestments mit institutioneller Qualität und professionellem Management in einer sehr einfachen Club-Deal Struktur der breiten Masse zugänglich.
+                                <br>
+                                <br> Wir beteiligen Investoren dabei direkt an Objektgesellschaften und vermeiden einen Großteil des Overheads eines Investment-Funds. Hierfür haben wir mit Hilfe der Blockchain Technologie sämtliche Prozesse digitalisiert und ermöglichen eine einfache Verwaltung von großen Investmentclubs.
+                                <br>
+                                <br> Im Vordergrund stehen dabei die Qualität der Immobilien und der Manager, denn das Immobilienmanagement schafft letztendlich den Wert.
+                                <br>
+                                <br> Unser Ziel ist es daher, das Investorenmanagement so einfach wie möglich zu machen, damit Manager sich auf die Immobilienarbeit konzentrieren können.
+                            </div>
+                        
+                    </div>
+                </div>
+                    <div class="col-sm-6">
+                         <div class="fade">
+                        <div class='missionpic fade'><img src="./RIDE Grafiken/Midsection-BG-60pc.jpg"></div></div>
+                    </div>
+                </div>
+            </section>
+            <section id="InvestmentStruktur" class="MidSection">
+                <div class="MidSectionHeader fade" align="right">I N V E S T E M E N T S T R U K T U R</div>
+                <h2><div class="fade" align="right">Direkte Immobilieninvestitionen</div></h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class='missionpic fade'><img src="./RIDE Grafiken/Midsection-Dach-350px.jpg"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="borderleftwrapper">
+                            <div class="borderright fade">Immobilieninvestitionen sind ineffizient und benötigen zahlreiche Mittelsmänner. Das Ergebnis ist, dass es für Privatpersonen unnötig kompliziert ist, sich direkt oder indirekt an Immobilien zu beteiligen. Mit der Entwicklung der Blockchain ist es nun möglich, dass Vertragsparteien Werte dezentral und kosteneffizient austauschen können.
+                                <br>
+                                <br> Mit RIDE entwickeln wir eine neue, praktikable und rechtssichere Lösung, die Blockchain auf Immobilien anzuwenden. Dabei konzentrieren wir uns ausschließlich auf Immobilien, die von professionellen Asset Managern gemanaged werden. Wir verschaffen Investoren die Möglichkeit, direkt auf Ebene der Projektgesellschaften zu investieren und die Overheadkosten eines Alternative Investment Funds (AIF) zu umgehen.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="AssetManagement" class="MidSection">
+                <div class="MidSectionHeader fade">A S S E T&nbsp;&nbsp; M A N A G E M E N T</div>
+                <h2><div class="fade">Professionelles Real Estate Asset Management</div></h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="borderleftwrapper fade">
+                            <div class="borderleft">RIDE richtet sich ausschließlich an Investment Clubs mit professionellem Asset Manager.
+                                <br>
+                                <br> Wir überprüfen, dass die Investments mit institutioneller Qualität gemanaged werden und die Investoren ein professionelles Reporting sowie Zugang zu vielfältigen und qualitativ hochwertigen Deals erhalten.
+                                <br>
+                                <br> Aus diesem Grund müssen sich Asset Manager bei RIDE bewerben, bevor ein Investmentvehikel über RIDE aufgesetzt werden kann.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 missionpic fade"><img src="./RIDE Grafiken/architecture-building-glass-136413.jpg" width="300"></div>
+                </div>
+            </section>
+            <section id="UeberUns" class="MidSection">
+                <div class="MidSectionHeader fade">Ü B E R &nbsp;&nbsp;U N S</div>
+                <h2><div class="fade">Gründer & Berater</div></h2>
+                <div class="row">
+                    <div class="col-sm-6 missionpic fade"><img src="./RIDE Grafiken/A9B07343_ridestyle_350.jpg">
+                        <div class="row">
+                            <div class="col-xs-6 team">
+                                
+                                <br>
+                                <b>Felix Schulte</b>
+                                <br>Gründer
+                                <br>
+                                <br>
+                                <a href="https://www.linkedin.com/in/felixschulte/"><img src="./RIDE Grafiken/linkedin_cion-small.png"></a>
+                            </div>
+                            <div class="col-xs-6 team">
+                                
+                                <br>
+                                <b>Christine Kiefer</b>
+                                <br>Gründer
+                                <br>
+                                <br>
+                                <a href="https://www.linkedin.com/in/christinekiefer/"><img src="./RIDE Grafiken/linkedin_cion-small.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="borderleftwrapper fade">
+                            <div class="borderright">Nach ihren Erfahrungen in der Immobilien-Private Equity und FinTech Branche gründeten Christine Kiefer und Felix Schulte RIDE als Antwort auf die Komplexität und die hohen Overheadkosten von Private Equity Funds.
+                                <br>
+                                <br> Die Vision von RIDE ist es, Immobilieninvestments mit institutioneller Qualität und professionellem Management in einer sehr einfachen Club-Deal Struktur der breiten Masse zugänglich zu machen. Dabei ist die Prämisse immer eine möglichst direkte, und damit kosteneffiziente Struktur, zwischen Investor und Immobilie zu schaffen.
+                                <br>
+                                <br> RIDE betrachtet sich dabei als Dienstleister der Asset Manager und stellt die gesamte Plattform für ein professionelles Investorenmanagement zur Verfügung.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Berater">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="borderleftwrapper">
+                            <div class="borderleft">RIDE stehen Christoph Munte und Nora Schroeder als Berater zur Seite.
+                                <br>
+                                <br> Christoph Munte ist Managing Partner bei TEG Finance.
+                                <br>
+                                <br> Nora Schroeder von der Kanzelei Lambsdorff betreut RIDE als Legal Advisor.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 team">
+                        <div class="card">
+                            <img src="./RIDE Grafiken/NoraSchroeder.png" width="150px" alt="Nora Schr0eder">
+                            <br>
+                            <br>
+                            <b>Nora Schroeder</b>
+                            <br>Legal Advisor
+                            <br>
+                            <br>
+                            <a href="https://www.linkedin.com/in/christoph-munte-48a5295a/"><img src="./RIDE Grafiken/linkedin_cion-small.png"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 team">
+                        <div class="card">
+                            <img src="./RIDE Grafiken/ChristophMunte.png" width="150px" alt="Christoph Munte">
+                            <br>
+                            <br>
+                            <b>Christoph Munte</b>
+                            <br>Legal Advisor
+                            <br>
+                            <br>
+                            <a href="https://www.linkedin.com/in/christoph-munte-48a5295a/"><img src="./RIDE Grafiken/linkedin_cion-small.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Newsletter">
+                <h3>Wünschen Sie weitere Informationen?</h3>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="https://capital.us12.list-manage.com/subscribe/post?u=6ae733acffd32fad9c4f423bf&amp;id=480dba952e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_6ae733acffd32fad9c4f423bf_480dba952e" tabindex="-1" value="">
+                            </div>
+                            <button class="btn mybtn" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </section>
+        </div>
     </div>
     <footer class="container FooterSection">
         <img src="RIDE Grafiken/RIDE-Logo BW.png" style="width: 50px; text-align: center;">
         <br>
         <small>&copy; 2018</small>
         <br>
+        <br>
+        <small><a href="./impressum.html">Impressum & Datenschutz</a></small>
     </footer>
-    </div>
+    <script src="scripts.js"></script>
 </body>
-<!--
 
-    <div class="row">
-            <div class="col-12 col-md">
-                <img src="RIDE Grafiken/RIDE-Logo BW.png">
-                <small class="d-block mb-3 text-muted">&copy; 2018</small>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Features</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Cool stuff</a></li>
-                    <li><a class="text-muted" href="#">Random feature</a></li>
-                    <li><a class="text-muted" href="#">Team feature</a></li>
-                    <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                    <li><a class="text-muted" href="#">Another one</a></li>
-                    <li><a class="text-muted" href="#">Last time</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Business</a></li>
-                    <li><a class="text-muted" href="#">Education</a></li>
-                    <li><a class="text-muted" href="#">Government</a></li>
-                    <li><a class="text-muted" href="#">Gaming</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Team</a></li>
-                    <li><a class="text-muted" href="#">Privacy</a></li>
-                    <li><a class="text-muted" href="#">Terms</a></li>
-                </ul>
-            </div>
-        </div>
-
-        !-->
+</html>
